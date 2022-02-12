@@ -1,0 +1,277 @@
+:root {
+    --primario : #2666CF;
+    /* #5800FF */
+    --secundario : #4000b6;
+}
+*{
+    background-color: #151616;
+}
+
+
+
+.navbar {
+    background-color: #151616;
+    padding: 0;
+    
+}
+.navbar .navbar-brand a {
+    color: var(--primario) !important; 
+    text-align: center;
+
+}
+.navbar-toggler {
+    border: 0 !important;
+    background-color: #151616
+}
+.navbar-brand {
+    text-align: center;
+    margin: auto;
+
+    font-size: 72px;
+    color: var(--primario);
+      
+    font-size: 50px;
+    font-family: 'Yellowtail', cursive;
+    inline-size: 0.1;
+
+}
+.nav-item a {
+    font-family: "Rubik","Sans Serif";
+    letter-spacing: 1px;
+    font-weight: 200;
+}
+@media only screen and (min-width: 992px) {
+    .nav-item a {
+        padding-top: 20px;
+    }
+}
+.separador p {
+    position: relative;
+    bottom: 0;
+    color: black;
+}
+h2 {
+    font-family: 'IBM Plex Sans', sans-serif;
+    text-align: center;
+    padding: 20px;
+   
+}
+h2 span {
+    background: #ee0979;  /* fallback for old browsers */ background: -webkit-linear-gradient(to right, #ff6a00, #ee0979);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #ff6a00, #ee0979); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    -webkit-text-fill-color: transparent;
+    
+
+}
+    
+.acerca-de-mi .texto{
+
+    text-align: center;
+    align-items: center;
+
+    
+}
+.acerca-de-mi__name {
+    margin: 0;
+    inset-inline: 0;
+    position: relative;
+    font-family: 'Work Sans', sans-serif;
+    font-weight:700;
+    font-size: 70px;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    letter-spacing: 1px;
+    line-height: 0.8;
+    color: rgb(255, 255, 255);
+}
+.acerca-de-mi__experience {
+    margin: 0;
+    color: var(--primario);
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 600;
+    font-size: 30px;
+    margin-bottom: 0;
+}
+.nav-item {
+    margin-left: 20px;
+    color: #fff !important;
+}
+.acerca-de-mi .descripcion {
+    margin: 10px;
+    text-align: center;
+    display: inline-block;
+    width: 90vw;
+    color: #ffffff;
+    font-size: 40px;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 600;
+    inline-size: 0.8;
+}
+.acerca-de-mi {
+    text-align: center;
+    position: relative;
+    margin-top: 80px;
+    z-index: 150;
+    display: flex;
+    background: #151616;
+    justify-content: center;
+    width: 100%;
+    min-height: 100vh;
+    
+}
+.contenido {
+    border-radius: 0px;
+    padding: 20px;
+    
+}
+.acerca-de-mi img {
+    margin-bottom: 10px;
+    box-shadow: 0 0 1px var(--primario);
+   object-position: center;
+    border-radius: 50%;
+    border: 0;
+    filter: brightness(90%);
+    width: 200px;
+    object-fit: cover;
+    height: 200px;
+}
+
+h2 span {
+    font-family: 'Work Sans', sans-serif;
+    color:#fff;
+}
+.boton {
+    background-color: var(--primario);
+    border:1px solid var(--primario);
+    box-shadow: 0px 0px 5px var(--secundario);
+    display: block;
+    padding:20px;
+    font-weight: 600; 
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: transform;
+    transition-property: transform;
+      
+    margin: auto;
+    color: #fff;
+    cursor: pointer;
+    width: max-content;
+}
+.boton:hover, .boton:focus, .boton:active {
+    -webkit-transform: scale(0.9);
+    transform: scale(0.9);
+  }
+
+.works {
+    text-align: center;
+    padding: 0;
+    padding-bottom: 50px;
+    width: 100%;
+}
+.enlace {
+    text-decoration: none;
+}
+.works__titulo {
+    font-family: 'Work Sans', sans-serif;
+    color: white;
+    font-weight: 600;
+    font-size: 50px;
+    padding: 10px;
+    color: #ffffff;
+    line-height: 0.9;
+}
+.descript {
+    color: #fffeee;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 1.1;
+    padding-top: 0;
+    margin: auto;
+    padding: 20px;
+    padding-bottom: 20px;
+    display: block;
+    width: 90vw;
+}
+.dark-toggler::after {
+    content: "Modo Claro";
+    padding-left: 3px;
+
+}
+.navbar-brand {
+    color: var(--primario) !important;
+}
+.texto .descripcion span {
+    text-decoration: underline 5px var(--primario);
+}
+.navbar {
+    background-color: var(--primario);
+}
+
+
+
+.body {
+    background-color: #151616 !important;
+}
+.contacto {
+    margin: 0;
+    padding:0;
+}
+.contacto svg {
+    width: 75px;
+    padding: 10px;
+    height: 75px;
+    color: #5800FF;
+    fill: #fff;
+    background-color: var(--primario);
+    display: inline;
+}
+.contacto div {
+    background: var(--primario);
+}
+.contacto {
+    color: #fff;
+    background:var(--primario);
+    padding: 20px;
+    margin: 0;
+    font-size: 30px;
+    text-align: center;
+    width: 100%;
+    
+}
+
+
+.boton {
+    margin: 10px;
+    background:var(--primario);
+    display: inline-block;
+    width: 200px;
+    text-align: center;
+    margin: auto;
+    margin-top: 10px;
+
+}
+.boton p {
+    text-align: center;
+    margin: auto;
+}
+
+.botones .boton i {
+    background: 0;
+    font-size: 20px;
+}
+.descripcion span {
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+}
+.navbar p {
+    text-align: center;
+}
+body {
+    overflow-x: hidden;
+}
+.contacto {
+    width: 100vw !important;
+}

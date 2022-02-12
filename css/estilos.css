@@ -1,0 +1,139 @@
+.body-active .boton {
+  color: #fff;
+  background: #2666CF;
+  border: 3px solid #2666CF;
+}
+
+.body-active .contacto i {
+  background: #2666CF;
+}
+
+.body-active .navbar-toggler {
+  background: #fff;
+}
+
+.body-active .navbar-toggler-icon {
+  background: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%280, 0, 0, 0.55%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e"), #fff;
+}
+
+.body-active .navbar-brand {
+  background-color: #fff !important;
+  color: #2666CF !important;
+}
+
+.body-active div, .body-active p, .body-active span {
+  background-color: #fff;
+}
+
+.body-active .navbar div {
+  background-color: #fff !important;
+}
+
+.body-active .works__titulo {
+  color: #000;
+}
+
+.body-active .dark-toggler, .body-active .navbar ul, .body-active .dark-toggler i {
+  background-color: #fff;
+  color: #2666CF;
+}
+
+.body-active .dark-toggler::after {
+  content: "Modo Oscuro";
+  padding-left: 3px;
+  color: #2666CF;
+}
+
+.body-active .contacto, .body-active .contacto div, .body-active .contacto svg {
+  background: #2666CF;
+}
+
+.body-active .acerca-de-mi img {
+  border: 0;
+}
+
+.body-active .acerca-de-mi .acerca-de-mi__experience {
+  color: #2666CF;
+  font-weight: 600;
+  font-size: 30px;
+}
+
+.body-active .acerca-de-mi .acerca-de-mi__name {
+  color: black;
+}
+
+.body-active .acerca-de-mi .descripcion {
+  color: black;
+}
+
+.body-active .acerca-de-mi span {
+  -webkit-text-decoration: underline 5px #2666CF;
+          text-decoration: underline 5px #2666CF;
+}
+
+.body-active * {
+  background-color: #2666CF;
+}
+
+.body-active .works img {
+  padding: 0;
+  background: #fff;
+}
+
+html {
+  background: #fff;
+  color: #fff;
+}
+
+.works img {
+  width: 750px;
+}
+
+@media only screen and (max-width: 750px) {
+  .descripcion {
+    font-size: 30px;
+    text-align: justify;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin: 0;
+  }
+  .acerca-de-mi__name {
+    font-size: 60px;
+  }
+  .works img {
+    width: 100%;
+  }
+}
+
+.acerca-de-mi {
+  max-width: 100%;
+}
+
+.works {
+  padding: 0;
+  padding: 30px;
+  margin: 0;
+}
+
+.contenido {
+  width: 100% !important;
+}
+
+.descripcion {
+  width: 100% !important;
+}
+
+.works {
+  padding: 0;
+  padding-bottom: 30px;
+}
+
+.works img {
+  padding: 30px;
+}
+
+.contacto {
+  width: 100% !important;
+}
+/*# sourceMappingURL=estilos.css.map */

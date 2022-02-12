@@ -1,0 +1,122 @@
+.body-active {
+    .boton{
+        color: #fff;
+        background:#2666CF;
+        border: 3px solid #2666CF;
+
+    }
+    .contacto i {
+        background: #2666CF;
+    }
+    .navbar-toggler {
+        background: #fff;
+    }
+    .navbar-toggler-icon {
+        background: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%280, 0, 0, 0.55%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e"),#fff;
+    }
+    
+    .navbar-brand {
+        background-color: #fff !important;
+        color: #2666CF !important;  
+    }
+    div,p,span {
+        background-color: #fff;
+    }
+    .navbar div {
+        background-color: #fff !important;
+    }
+    
+    .works__titulo {
+        color: #000;
+    }
+    .dark-toggler,.navbar ul,.dark-toggler i {
+        background-color: #fff;
+        color:#2666CF;
+    }
+    .dark-toggler::after {
+        content: "Modo Oscuro";
+        padding-left: 3px;
+        color:#2666CF; 
+
+    }
+    .contacto,.contacto div,.contacto svg {
+        background:#2666CF;
+    }
+    .acerca-de-mi {
+        img {
+            border:0;
+        }
+        .acerca-de-mi__experience {
+            color: #2666CF;
+            font-weight: 600;
+            font-size: 30px;
+        }
+        .acerca-de-mi__name {
+            color: black;
+        }
+        .descripcion {
+            color: black;
+        }
+        span {
+            text-decoration: underline 5px #2666CF;
+        }
+    }
+    *{
+        background-color: #2666CF;
+    }
+    .works img {
+        padding: 0;
+        background: #fff;
+    }
+    
+}
+html {
+    background: #fff;
+    color: #fff;
+}
+.works img {
+    width: 750px;
+}
+@media only screen and(max-width:750px){
+    
+    
+    .descripcion {
+        font-size: 30px;
+        text-align: justify;
+        justify-content: center;
+        margin: 0;
+    }
+    .acerca-de-mi__name {
+        font-size: 60px;
+    }
+    .works img {
+        width: 100%;
+    }
+    
+}
+.acerca-de-mi {
+    max-width: 100%;
+}
+.works {
+    padding:0;
+    padding: 30px;
+    margin: 0;
+    
+}
+.contenido {
+    width: 100% !important;
+}
+.descripcion {
+    width: 100% !important;
+}
+
+.works {
+    padding:0;
+    padding-bottom: 30px;
+    img {
+        padding: 30px;
+    }
+}
+.contacto {
+    width: 100% !important;
+}
